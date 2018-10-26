@@ -1,0 +1,15 @@
+.row{
+	margin-bottom: : 15px;
+}
+.row>div {
+	border: 2px solid red;
+	background-color: gray;
+}
+#box{
+
+	padding: 5px 5px 5px 5px;
+	margin: 5px 5px 5px 5px;
+	width: 50px;
+	
+
+}
