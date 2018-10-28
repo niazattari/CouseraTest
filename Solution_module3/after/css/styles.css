@@ -1,0 +1,139 @@
+body {
+  font-size: 16px;
+  color:black;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: gray;
+  border-radius: 0;
+  border: 2px solid black;
+}
+
+.navbar-brand {
+  padding-top: 20px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: black; 
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#our-menu {
+    padding-top: 20px 0 40px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .row{
+    width: 100%;
+  }
+  .row>div{
+    margin-bottom: 15px;
+  }
+  p {
+  padding: 10px;
+  margin: 0;
+}
+
+.container {
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+section {
+  border: 1px;
+  width: 300px;
+  height: 100px;
+  font-family: Helvetica;
+  color: black;
+  position: relative;
+  overflow: auto;
+  height: 1000px;
+}
+
+#chicken {
+  border: 1px;
+  text-align: center;
+  width: 100%;
+  font-weight:bold;
+  font-size: 25px;
+  background-color: grey;  
+ 
+}
+
+#beef {
+  border: 1px ;
+  text-align: center;
+  width: 100%;
+  font-weight:bold;
+  font-size: 25px;
+  background-color: grey;
+}
+
+#sushi {
+  border: 1px;
+  text-align: center;
+  width: 100%;
+  font-weight:bold;
+  font-size: 25px;
+  background-color: grey;
+}
+p{
+  background-color: grey;
+}
+/********** Desktop display **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+  }
+  
+
+/********** Tablet Display  **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  
+}
+
+/********** Mobile Display **********/
+@media (max-width: 767px) {
+
+}
+
+#collapsable-nav a { 
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { 
+    font-size: 1em;
+    margin-right: 5px;
+  }
+  #nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: white;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+
+}
+ 
+
+  
